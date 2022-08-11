@@ -56,7 +56,7 @@ local function to_section(buffer, idx, settings)
   flags = table.concat(flags)
   item = flags == '' and item or fmt('%s %s', item, flags)
   if settings.show_index then
-    item = fmt(' %d:%s ', idx, item)
+    item = fmt(' %d:%s ', buffer.bufnr, item)
   else
     item = fmt(' %s ', item)
   end

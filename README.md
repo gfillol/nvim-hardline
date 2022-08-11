@@ -1,3 +1,10 @@
+# Fork
+
+`gfillol/nvim-hardline` fork only modification from `ojroques/nvim-hardline` :
+* `show_index = true` setting show the actual buffer numbers (not the buffer indexes) in bufferline  
+So you can use `:Nb` (N is buffer number) `:bn` `:bp` etc. commands to navigate through buffers.  
+And buffer numbers stay the same over time, even if you add or delete buffers.
+
 # nvim-hardline
 
 A statusline / bufferline for Neovim written in Lua. It is inspired by
